@@ -1,0 +1,20 @@
+onLoadMission="E3_Afgha";
+onLoadIntroTime=false;
+onLoadMissionTime=false;
+disabledAI=1;
+respawn="BASE";
+respawndelay = 1200;
+debriefing=1;
+showGPS=1;
+
+class Header {
+	gameType = COOP;
+	minPlayers = 1;
+	maxPlayers = 30;
+	playerCountMultipleOf = 1;
+};
+
+#include "R3F_ARTY_AND_LOG\desc_include.h"
+
+disableChannels[] = {6};
+enableItemsDropping = 0;

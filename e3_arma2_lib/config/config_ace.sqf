@@ -3,6 +3,8 @@
  *
  */
  
+/* ********************************************************************************************* */ 
+ 
 //Activation du soin de ACE
 ace_sys_wounds_enabled = true; 
 publicVariable "ace_sys_wounds_enabled";
@@ -22,6 +24,8 @@ publicVariable "ace_sys_wounds_no_rpunish";
 ace_sys_wounds_noai = true;
 publicVariable "ace_sys_wounds_noai";
 
+/* ********************************************************************************************** */
+
 //Suppresion des paroles directs des I.A.
 ace_sys_aitalk_enabled = false;
 publicVariable "ace_sys_aitalk_enabled";
@@ -29,6 +33,8 @@ publicVariable "ace_sys_aitalk_enabled";
 //Suppresion des paroles à la radio des I.A.
 ace_sys_aitalk_radio_enabled = false;
 publicVariable "ace_sys_aitalk_radio_enabled";
+
+/* ********************************************************************************************** */
 
 //Suppression des markers de suivie
 ace_sys_tracking_markers_enabled = false;
@@ -38,6 +44,8 @@ publicVariable "ace_sys_tracking_markers_enabled";
 ace_sys_repair_default_tyres = true;
 publicVariable "ace_sys_repair_default_tyres";
 
+/* ********************************************************************************************** */
+
 // Active la possibilité de changer la view distance
 ace_settings_enable_vd_change = true;
 publicVariable "ace_settings_enable_vd_change";
@@ -45,4 +53,6 @@ publicVariable "ace_settings_enable_vd_change";
 // Activa la possibilité de changer le terrain grid
 ace_settings_enable_tg_change = true;
 publicVariable "ace_settings_enable_tg_change";
+
+/* ********************************************************************************************** */
 

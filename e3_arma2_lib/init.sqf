@@ -1,3 +1,5 @@
+// Récupération des configs
+#include "config.sqf"
 
 // Setup des scripts e3_arma2_lib + config
 #include "setup.sqf"

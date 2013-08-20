@@ -54,10 +54,12 @@ class Mission
 	randomSeed=15672130;
 	class Intel
 	{
-		briefingName="E3_ARMA2_Afgha";
+		briefingName="E3_Afgha";
 		resistanceEast=1;
-		startWeather=1;
-		forecastWeather=1;
+		startWeather=0;
+		startFog=0.75;
+		forecastWeather=0;
+		forecastFog=1;
 		year=2011;
 		month=4;
 		hour=8;
@@ -84,7 +86,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={15455.147,2.8314047,1013.4493};
+					position[]={15403.036,2.8314047,997.13818};
 					id=1;
 					side="LOGIC";
 					vehicle="ACE_SYS_PRespawn_Logic";
@@ -93,7 +95,7 @@ class Mission
 				};
 				class Item2
 				{
-					position[]={15439.339,2.8314047,1035.3843};
+					position[]={15412.214,2.8314047,1055.0352};
 					id=2;
 					side="LOGIC";
 					vehicle="ACE_Required_Logic";
@@ -111,7 +113,7 @@ class Mission
 				};
 				class Item4
 				{
-					position[]={15507.026,2.8314047,1013.0609};
+					position[]={15508.229,2.8314047,1022.6862};
 					id=4;
 					side="LOGIC";
 					vehicle="ace_sys_repair_full";
@@ -120,7 +122,7 @@ class Mission
 				};
 				class Item5
 				{
-					position[]={15482.569,2.8314047,1036.8831};
+					position[]={15488.716,2.8314047,1059.0742};
 					id=5;
 					side="LOGIC";
 					vehicle="ACE_Vehicledamage_Enable_Cookoff";
@@ -129,7 +131,7 @@ class Mission
 				};
 				class Item6
 				{
-					position[]={15462.624,2.8314047,1035.9475};
+					position[]={15450.196,2.8314047,1062.6846};
 					id=6;
 					side="LOGIC";
 					vehicle="ACE_NoKnockDown";
@@ -138,7 +140,7 @@ class Mission
 				};
 				class Item7
 				{
-					position[]={15418.297,2.8314047,1017.1693};
+					position[]={15412.418,2.8314047,1045.11};
 					id=7;
 					side="LOGIC";
 					vehicle="CBA_main_require";
@@ -147,7 +149,7 @@ class Mission
 				};
 				class Item8
 				{
-					position[]={15465.19,2.8314047,980.77472};
+					position[]={15459.712,2.8314047,984.65167};
 					id=12;
 					side="LOGIC";
 					vehicle="gbl_AdvancedInteraction";
@@ -157,7 +159,7 @@ class Mission
 				class Item9
 				{
 					presenceCondition="false";
-					position[]={15419.482,2.8314047,980.22101};
+					position[]={15424.293,2.8314047,970.9986};
 					id=13;
 					side="LOGIC";
 					vehicle="ACE_AITalk_Logic";
@@ -167,7 +169,7 @@ class Mission
 				class Item10
 				{
 					presenceCondition="false";
-					position[]={15405.728,2.8314047,979.87677};
+					position[]={15414.278,2.8314047,970.65436};
 					id=14;
 					side="LOGIC";
 					vehicle="ACE_RadioTalk_Logic";
@@ -176,7 +178,7 @@ class Mission
 				};
 				class Item11
 				{
-					position[]={15452.151,2.8314047,980.41632};
+					position[]={15449.746,2.8314047,984.69244};
 					id=15;
 					side="LOGIC";
 					vehicle="gbl_fieldRations";
@@ -185,7 +187,7 @@ class Mission
 				};
 				class Item12
 				{
-					position[]={15492.056,2.8314047,994.85333};
+					position[]={15490.454,2.8314047,992.84894};
 					id=16;
 					side="LOGIC";
 					vehicle="ACE_Viewblock_EnableAIGrassVB_Mod";
@@ -278,7 +280,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={17078.762,1007.0554,5973.1411};
+					position[]={9570.0176,3.6905737,16542.977};
 					id=17;
 					side="GUER";
 					vehicle="Soldier_Crew_PMC";
@@ -353,6 +355,47 @@ class Mission
 			vehicle="SUV_PMC_BAF";
 			skill=0.60000002;
 			init="thi allowDamage false;";
+		};
+	};
+	class Markers
+	{
+		items=4;
+		class Item0
+		{
+			position[]={9716.2334,8.8300953,16453.188};
+			name="e3_map_ville_00";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=400;
+			b=300;
+		};
+		class Item1
+		{
+			position[]={10468.128,7.5133228,16717.396};
+			name="_map_ville_01";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=400;
+			b=600;
+			angle=-15;
+		};
+		class Item2
+		{
+			position[]={9502.3027,6.2012744,17012.398};
+			name="e3_map_ville_02";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=200;
+			b=150;
+		};
+		class Item3
+		{
+			position[]={10501.265,7.254457,15945.829};
+			name="e3_map_ville_03";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=200;
+			b=150;
 		};
 	};
 };

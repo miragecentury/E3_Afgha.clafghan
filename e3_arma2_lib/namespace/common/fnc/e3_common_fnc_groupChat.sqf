@@ -13,7 +13,7 @@ e3_common_fnc_globalChat =
 	/* */
 	
 	[-1,{
-		if( (group player)== (_this select 1)) then
+		if( (group player) == (_this select 1)) then
 		{
 			(_this select 0) groupChat (_this select 2);
 		};

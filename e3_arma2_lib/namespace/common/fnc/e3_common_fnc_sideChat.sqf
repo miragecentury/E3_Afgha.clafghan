@@ -1,5 +1,9 @@
 e3_common_fnc_globalChat = 
 {
+	/** TODO : Ajout permettant de omettre la side
+	 * Si unit alors side unit si "" alors side nécessaire
+	*/
+	
 	/* */
 	private 
 	[

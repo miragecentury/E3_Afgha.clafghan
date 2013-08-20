@@ -1,0 +1,1 @@
+e3_map_camo = E3_CAMO_DESERT;

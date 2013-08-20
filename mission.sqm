@@ -359,20 +359,20 @@ class Mission
 	};
 	class Markers
 	{
-		items=4;
+		items=5;
 		class Item0
 		{
-			position[]={9716.2334,8.8300953,16453.188};
+			position[]={9683.4141,8.4585381,16424.75};
 			name="e3_map_ville_00";
 			markerType="ELLIPSE";
 			type="Empty";
 			a=400;
-			b=300;
+			b=250;
 		};
 		class Item1
 		{
-			position[]={10468.128,7.5133228,16717.396};
-			name="_map_ville_01";
+			position[]={10439.685,9.396349,16730.521};
+			name="e3_map_ville_01";
 			markerType="ELLIPSE";
 			type="Empty";
 			a=400;
@@ -396,6 +396,15 @@ class Mission
 			type="Empty";
 			a=200;
 			b=150;
+		};
+		class Item4
+		{
+			position[]={7888.4067,1.1017687,18087.648};
+			name="e3_map_ville_04";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=400;
+			b=200;
 		};
 	};
 };

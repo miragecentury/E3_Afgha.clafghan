@@ -1,1 +1,1 @@
-e3_map_camo = E3_CAMO_DESERT;
+e3_config_map_camo = E3_CAMO_DESERT;
